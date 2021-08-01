@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epic</title>
+    <link rel="stylesheet" href="css/index.min.css">
+    <link rel="stylesheet" href="css/index2.min.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li>
+                <h1><span>epic</span></h1>  
+            </li>
+            <li>
+                <a href="index.html" class="aaa">首页</a>
+            </li>
+            <li>
+                <a href="filas/1.html">商城</a>
+            </li>
+            <li>
+                <a href="filas/2.html">新闻</a>
+            </li>
+            <li>
+                <a href="filas/3.html">常见问题</a>
+            </li>
+            <li>
+                <a href="filas/4.html">帮助</a>
+            </li>
+        </ul>
+
+        <a href="/filas/5.html">登录</a>
+
+        <div class="cc"></div>
+    </header>
+
+    <main>
+        <div class="top">
+            <p>首页</p>
+            <div class="topl"></div>
+            <div class="topr">
+                <div class="r1"><a href="#"></a></div>
+                <div class="r2"><a href="#"></a></div>
+                <div class="r3"><a href="#"></a></div>
+                <div class="r4"><a href="#"></a></div>
+                <div class="r5"><a href="#"></a></div>
+            </div>
+            <div class="cc"></div>
+        </div>
+
+        <div class="mid">
+            <p class="mid_p1">大特卖</p>
+            <dl> 
+                <dt><img data-lazy-src="images/mid_1.png"></dt>
+                <dd>
+                    <p class="mid_2">Red Dead Redemption 2</p>
+                    <p class="mid_3">Rockstar Games</p>
+                    <p class="mid_4">原价:¥228 现价:¥152.76</p>
+                </dd>
+            </dl>
+            <dl>
+                <dt><img data-lazy-src="images/mid_2.png"></dt>
+                <dd>
+                    <p class="mid_2">Death Stranding</p>
+                    <p class="mid_3">Kojima Productions</p>
+                    <p class="mid_4">原价:¥273 现价:¥109.20</p>
+                </dd>
+            </dl>
+            <dl>
+                <dt><img data-lazy-src="images/mid_3.png"></dt>
+                <dd>
+                    <p class="mid_2">Borderlands 3</p>
+                    <p class="mid_3">Gearbox Software | 2K</p>
+                    <p class="mid_4">原价:¥195 现价:¥64.35</p>
+                </dd>
+            </dl>
+            <dl>
+                <dt><img data-lazy-src="images/mid_4.png"></dt>
+                <dd>
+                    <p class="mid_2">Mafia: Trilogy</p>
+                    <p class="mid_3">Hangar 13 | 2K</p>
+                    <p class="mid_4">原价:¥182 现价:¥109.20</p>
+                </dd>
+            </dl>
+            <dl>
+                <dt><img data-lazy-src="images/mid_5.png"></dt>
+                <dd>
+                    <p class="mid_2">ARK: Survival Evolved</p>
+                    <p class="mid_3">Studio Wildcard</p>
+                    <p class="mid_4">原价:¥124 现价:¥24.80</p>
+                </dd>
+            </dl>
+            <div class="cc"></div>
+        </div>
+
+        <div class="footer">
+            <p class="footer_p1">Epic Games商城目录</p>
+            <a href="filas/1.html" class="footer_img"></a>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>
+            © 2021, Epic Games, Inc. 版权所有。Epic、Epic Games、Epic Games标志、Fortnite（堡垒之夜）、Fortnite（堡垒之夜）标志、Unreal（虚幻）、Unreal
+            Engine
+        </p>
+        <p>
+            （虚幻引擎）、Unreal Engine（虚幻引擎）标志、Unreal Tournament（虚幻竞技场）以及Unreal Tournament（虚幻竞技场）标志属于Epic Games, Inc.在美利坚合
+        </p>
+        <p>
+            众国及其他地区的商标或已注册商标。其他品牌或产品名称属于其各自拥有者的商标。美国以外事务通过Epic Games International, S.à r.l.办理。
+        </p>
+        <div class="footer_p"></div>
+        <div class="cc"></div>
+        <ul>
+            <li><a href="">服务条款</a></li>
+            <li><a href="">隐私政策</a></li>
+            <li><a href="">商店退款政策</a></li>
+        </ul>
+    </footer>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/EasyLazyload.min.js"></script>
+    <script>
+      lazyLoadInit({
+          coverColor:"white",
+          coverDiv:"<h1>test</h1>",
+          offsetBottom:0,
+          offsetTopm:0,
+          showTime:1100,
+          onLoadBackEnd:function(i,e){
+              console.log("onLoadBackEnd:"+i);
+          }
+          ,onLoadBackStart:function(i,e){
+              console.log("onLoadBackStart:"+i);
+          }
+      });
+  </script>
+</body>
+
+</html>

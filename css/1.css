@@ -1,0 +1,68 @@
+main{
+    width: 1444px;
+    margin: 0 auto;
+    margin-bottom: 90px;
+}
+.p1{
+    padding-top: 42px;
+    color: rgb(245, 245, 245);
+}
+.mlp1{
+    margin-top: 60px;
+    color: rgb(154, 154, 154);
+}
+.lol{
+    width: 160px;
+    position: relative;
+}
+.px{
+    background-color: rgb(32, 32, 32);
+    position: absolute;
+    left: 55px;
+    overflow: hidden;
+    width: 160px;
+    height: 0;
+    transition: height 0.3s;
+}
+.px ul{
+    padding-top: 15px;
+    padding-left: 20px;
+}
+.px ul li{
+    padding-bottom: 15px;
+}
+.mainl .lol .a1{
+    color: rgb(245, 245, 245);
+}
+.px ul li a:hover{
+    color: rgb(245, 245, 245);
+}
+.lol:hover .px{
+    height: 195px;
+}
+.lol a{
+    color: rgb(127, 127, 127);
+}
+.mlp2{
+    margin-top: 30px;
+    color: rgb(239, 239, 239);
+}
+.mlp3{
+    margin-top: 10px;
+    color: rgb(154, 154, 154);
+}
+.mlp4{
+    margin-top: 10px;
+    color: rgb(238, 238, 238);
+}
+dl{
+    margin-top: 20px;
+    float: left;
+    padding-right: 15px;
+    height: 430px;
+}
+dt img{
+    height: 300px;
+    width: 225px;
+    border-radius: 25px;
+}

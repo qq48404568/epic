@@ -1,0 +1,63 @@
+h2{
+    font-size: 44px;
+    color: #fff;
+    text-align:center;
+    padding-top: 50px;
+}
+html{
+    background-color: white;
+}
+main{
+    margin-bottom: 90px;
+}
+.mian_top{
+    background-color: rgb(72, 72, 72);
+    height: 250px;
+}
+input{
+    width: 1140px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-image: url(../images/sousuo.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    margin-top: 30px;
+    outline: none;
+    font-size: 18px;
+    padding-left: 50px;
+}
+.maian_mid,.maian_f{
+    width: 1140px;
+    margin: 0 auto;
+}
+h3{
+    font-size: 34px;
+    color: #333;
+    font-weight: unset;
+    margin-top: 85px;
+    margin-bottom: 35px;
+}
+.maian_mid a{
+    display: block;
+    width: 365px;
+    height: 100px;
+    float: left;
+    margin-right: 15px;
+}
+.mp1{
+    margin-top: 20px;
+    color: #202020;
+    font-size: 16px;
+}
+.mp2{
+    color: #0074e4;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-left: 18px;
+    margin-bottom: 35px;
+}
+.maian_mid li{
+    border-top: solid 1px rgb(238, 238, 238);
+}

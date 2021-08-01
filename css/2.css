@@ -1,0 +1,56 @@
+main{
+    width: 1444px;
+    margin: 0 auto;
+    margin-bottom: 90px;
+}
+.p1{
+    padding-top: 42px;
+    color: rgb(245, 245, 245);
+}
+dl{
+    float: left;
+    margin: 15px 20px 55px 0;
+}
+dt img{
+    width: 700px;
+    height: 395px;
+}
+.mlp1{
+    margin-top: 20px;
+    color: rgb(137, 137, 137);
+}
+.mlp2{
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+}
+.mlp3{
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+}
+.mainb ul li img{
+    width: 200px;
+    height: 110px;
+}
+.img{
+    float: left;
+}
+.mainb ul li{
+    border-top: solid rgb(65, 65, 65) 1px;
+    border-bottom: solid rgb(65, 65, 65) 1px;
+    padding-top: 20px;
+    height: 130px;
+}
+.p{
+    margin-left: 220px;
+}
+.mlp4{
+    color: #ffffff80;
+}
+.mlp5{
+    color: #fff;
+    margin-top: 10px;
+}
+.mlp6{
+    color: rgb(255, 255, 255);
+    margin-top: 37px;
+}

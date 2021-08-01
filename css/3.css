@@ -1,0 +1,27 @@
+html{
+    background-color: white;
+}
+main{
+    width: 1444px;
+    margin: 0 auto;
+    margin-bottom: 90px;
+}
+h2{
+    margin-top: 40px;
+    text-align:center;
+    margin-bottom: 30px;
+}
+.mlp1{
+    color: #333;
+    font-style:oblique;
+    margin-bottom: 25px;
+}
+.mlp2{
+    color: #4c4c4e;
+    font-weight:bold;
+}
+.mlp3{
+    color: #4c4c4e;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
